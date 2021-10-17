@@ -170,7 +170,7 @@ var TitleScreen = function TitleScreen(title,subtitle,callback) {
   };
 
   this.draw = function(ctx) {
-    ctx.fillStyle = "#00FF00";
+    ctx.fillStyle = "#FFFFFF";
 
     ctx.font = "bold 40px bangers";
     var measure = ctx.measureText(title);
@@ -437,7 +437,7 @@ var GamePoints = function() {
   this.draw = function(ctx) {
     ctx.save();
     ctx.font = "bold 18px arial";
-    ctx.fillStyle= "#00FF00";
+    ctx.fillStyle= "#FFFFFF";
 
     var txt = "" + Game.points;
     var i = pointsLength - txt.length, zeros = "";
